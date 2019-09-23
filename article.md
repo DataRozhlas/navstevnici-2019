@@ -64,7 +64,7 @@ Jakub Tesař: „Zahraniční studenti v diplomových programech také studují 
 
 Jakub Tesař: „Většina diplomových studentů jsou buď samoplátci (studují v celých placených programech v angličtině, typicky medicína) nebo jsou to vlastně „domácí“ studenti neplatící nic, protože studují v češtině (typicky u Slováků a slovansky mluvících, co se rychle naučí česky), tedy za stejných podmínek jako čeští studenti. Veřejná škola na všechny studenty v češtině, bez ohledu na národnost, bere příspěvek od MŠMT, tedy státu, je na ně tedy pohlíženo stejně jako na české studenty. Pro školy jsou tito studenti pak zajímavý, zvlášť, když jim kvůli demografickému vývoji klesá počet studentů s českým občanstvím.“
 
-GRAF PRO DIPLOMOVÁ STUDIA, DOPLNÍM
+<div id="zemediplom" style="height: 500px; max-width: 600px"></div>
 
 ### "Košer" zahraniční studenti - tedy studijní pobyty - ale přijíždějí odjinud.
 
@@ -72,4 +72,4 @@ GRAF PRO DIPLOMOVÁ STUDIA, DOPLNÍM
 * suverénně nejvíc ale přijíždí z USA; před deseti lety to byla téměř čtvrtina ze všech pobytů, dnes je to pořád 16 procent
 * _otázky: Jaké jsou důvody pro US dominanci? Přes jaké programy přijíždějí?_
 
-<div id="zeme" style="height: 500px; max-width: 600px"></div>
+<div id="zemepobyt" style="height: 500px; max-width: 600px"></div>

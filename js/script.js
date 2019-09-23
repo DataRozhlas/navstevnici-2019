@@ -22,9 +22,9 @@ var top2018 = [6226,3539,2979,1835,1579,1515,1415,1127,1126,1122,894,893];
 
 var legenda2018 = ["Rusko","Ukrajina","USA","Kazachstán","Německo","Francie","Španělsko","Turecko","Itálie","Čína","Polsko","Portugalsko"];
 
-var zeme = ["Spojené státy","Francie","Španělsko","Turecko","Německo","Itálie","Portugalsko","Slovensko","Polsko","Rusko"];
+var legendapobyt = ["Spojené státy","Francie","Španělsko","Turecko","Německo","Itálie","Portugalsko","Slovensko","Polsko","Rusko"];
 
-var zeme2008 =
+var zemepobyt2008 =
 [{"y":524,"proc":23.9},
 {"y":199,"proc":9.1},
 {"y":117,"proc":5.3},
@@ -36,7 +36,7 @@ var zeme2008 =
 {"y":155,"proc":7.1},
 {"y":44,"proc":2.0}];
 
-var zeme2018 =
+var zemepobyt2018 =
 [{"y":2632,"proc":16.4},
 {"y":1345,"proc":8.4},
 {"y":1249,"proc":7.8},
@@ -47,6 +47,32 @@ var zeme2018 =
 {"y":559,"proc":3.5},
 {"y":543,"proc":3.4},
 {"y":444,"proc":2.8}];
+
+var legendadiplom = ["Slovensko","Rusko","Ukrajina","Kazachstán","Německo","Indie","Bělorusko","Vietnam","Čína","Spojené království"];
+
+var zemediplom2008 =
+[{"y":19860,"proc":65.9},
+{"y":1722,"proc":5.7},
+{"y":1017,"proc":3.4},
+{"y":477,"proc":1.6},
+{"y":323,"proc":1.1},
+{"y":106,"proc":0.4},
+{"y":380,"proc":1.3},
+{"y":630,"proc":2.1},
+{"y":67,"proc":0.2},
+{"y":409,"proc":1.4}];
+
+var zemediplom2018 =
+[{"y":21292,"proc":47.5},
+{"y":5782,"proc":12.9},
+{"y":3347,"proc":7.5},
+{"y":1677,"proc":3.7},
+{"y":829,"proc":1.8},
+{"y":819,"proc":1.8},
+{"y":759,"proc":1.7},
+{"y":549,"proc":1.2},
+{"y":547,"proc":1.2},
+{"y":547,"proc":1.2}];
 
 $(function () {
 
@@ -399,7 +425,7 @@ Highcharts.chart('top18', {
     }]
 });
 
-Highcharts.chart('zeme', {
+Highcharts.chart('zemepobyt', {
 
     chart: {
         type: 'bar',
@@ -410,12 +436,12 @@ Highcharts.chart('zeme', {
     },
 
     subtitle: {
-        text: ''
+        text: 'top 10 zemí podle dat 2018'
     },
 
     xAxis: {
-        categories: zeme,
-        reversedStacks: true,
+        categories: legendapobyt,
+        reversedStacks: false,
     },
 
     yAxis: {
@@ -439,12 +465,62 @@ Highcharts.chart('zeme', {
 
     series: [{
         name: '2008',
-        data: zeme2008,
+        data: zemepobyt2008,
         color: colors[3]
     },{
         name: '2018',
-        data: zeme2018,
+        data: zemepobyt2018,
         color: colors[6]
+    }]
+
+})
+
+Highcharts.chart('zemediplom', {
+
+    chart: {
+        type: 'bar',
+    },
+
+    title: {
+        text: 'Diplomová studia: odkud studenti přijíždějí?'
+    },
+
+    subtitle: {
+        text: 'top 10 zemí podle dat 2018'
+    },
+
+    xAxis: {
+        categories: legendadiplom,
+        reversedStacks: false,
+    },
+
+    yAxis: {
+        title: {
+            text: 'počet studentů'
+        }
+    },
+
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.y}</b> studentů (<b>{point.options.proc} %</b> ze všech příchozích)'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        href : 'https://www.dzs.cz/',
+        text : 'Zdroj: Dům zahraniční spolupráce'
+    },
+
+    series: [{
+        name: '2008',
+        data: zemediplom2008,
+        color: colors[1]
+    },{
+        name: '2018',
+        data: zemediplom2018,
+        color: colors[5]
     }]
 
 })
