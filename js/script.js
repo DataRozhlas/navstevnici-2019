@@ -18,9 +18,13 @@ var top2000 = [395,220,209,186,107,85,72,70,69,62,59,59];
 
 var legenda2000 = ["Řecko","UK","Ukrajina","Rusko","Polsko","Vietnam","Bulharsko","Kypr","Německo","USA","Bahrajn","Jemen"];
 
-var top2018 = [6226,3539,2979,1835,1579,1515,1415,1127,1126,1122,894,893];
+var top2018dip = [21292,5782,3347,1677,829,819,759,549,547,547,484,351];
 
-var legenda2018 = ["Rusko","Ukrajina","USA","Kazachstán","Německo","Francie","Španělsko","Turecko","Itálie","Čína","Polsko","Portugalsko"];
+var legenda2018dip = ["Slovensko","Rusko","Ukrajina","Kazachstán","Německo","Indie","Bělorusko","Vietnam","Čína","UK","Itálie","Polsko"];
+
+var top2018pob = [2632,1345,1249,869,750,642,614,559,543,444,336,259];
+
+var legenda2018pob = ["Spojené státy","Francie","Španělsko","Turecko","Německo","Itálie","Portugalsko","Slovensko","Polsko","Rusko","Řecko","UK"];
 
 var legendapobyt = ["Spojené státy","Francie","Španělsko","Turecko","Německo","Itálie","Portugalsko","Slovensko","Polsko","Rusko"];
 
@@ -267,8 +271,7 @@ Highcharts.chart('detail', {
         title: {
             text: 'počet studentů'
         },
-        reversedStacks: false,
-        max: 60000
+        reversedStacks: false
     },
 
     tooltip: {
@@ -384,18 +387,18 @@ Highcharts.chart('top00', {
     }]
 });
 
-Highcharts.chart('top18', {
+Highcharts.chart('top18pob', {
 
     chart: {
         type: 'bar'
     },
 
     title: {
-        text: '2018'
+        text: '2018 studijní pobyty'
     },
 
     xAxis: {
-        categories: legenda2018
+        categories: legenda2018pob
     },
 
     yAxis: {
@@ -420,8 +423,49 @@ Highcharts.chart('top18', {
 
     series: [{
         name: '2018',
-        data: top2018,
+        data: top2018pob,
         color: colors[0]
+    }]
+});
+
+Highcharts.chart('top18dip', {
+
+    chart: {
+        type: 'bar'
+    },
+
+    title: {
+        text: '2018 diplomová studia'
+    },
+
+    xAxis: {
+        categories: legenda2018dip
+    },
+
+    yAxis: {
+        title: ''
+    },
+
+    tooltip: {
+        pointFormat: '<b>{point.y}  studentů</b>'
+    },
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    series: [{
+        name: '2018',
+        data: top2018dip,
+        color: colors[1]
     }]
 });
 
