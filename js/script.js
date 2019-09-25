@@ -105,7 +105,7 @@ Highcharts.chart('casovarada', {
     },
 
     subtitle: {
-        text: 'v letech 1953 až 1989 včetně Slovenska'
+        text: 'v letech 1953 až 1992 pouze české země'
     },
 
     annotations: [{
@@ -174,22 +174,22 @@ Highcharts.chart('casovarada', {
             point: {
                 xAxis: 0,
                 yAxis: 0,
-                x: 46,
-                y: 4500
+                x: 45,
+                y: 3700
             },
-            x: -180,
-            y: 100,
-            text: '1999:<br>Zavedení kreditového systému<br>znamená novou éru studijních výměn'
+            x: -130,
+            y: 80,
+            text: '1998:<br>ČR se přidává k programu Erasmus,<br>začíná boom studijních pobytů'
         }, {
             point: {
                 xAxis: 0,
                 yAxis: 0,
-                x: 50,
-                y: 12859
+                x: 46,
+                y: 4500
             },
-            x: -60,
-            y: 170,
-            text: '2004:<br>Česko se připojuje<br>k programu Sokrates<br>(???, vůbec netuším)'
+            x: -110,
+            y: 140,
+            text: '1999:<br>Vytvoření kreditového systému umožňuje<br>celosvětové rozšíření studijních pobytů'
         }, {
             point: {
                 xAxis: 0,
@@ -197,9 +197,19 @@ Highcharts.chart('casovarada', {
                 x: 53,
                 y: 27600
             },
-            x: 150,
-            y: 120,
-            text: '2007:<br>Začíná samostatný<br>program Erasmus'
+            x: 110,
+            y: 80,
+            text: '2007:<br>Začíná program Erasmus'
+        }, {
+            point: {
+                xAxis: 0,
+                yAxis: 0,
+                x: 61,
+                y: 52100
+            },
+            x: -40,
+            y: 80,
+            text: '2014:<br>Začíná Erasmus+'
         }]
     }],
 
@@ -285,12 +295,6 @@ Highcharts.chart('detail', {
     credits: {
         href : 'https://www.dzs.cz/',
         text : 'Zdroj: Dům zahraniční spolupráce'
-    },
-
-    plotOptions: {
-        series: {
-            stacking: 'normal'
-        }
     },
 
     series: [{
@@ -406,7 +410,7 @@ Highcharts.chart('top18pob', {
     },
 
     tooltip: {
-        pointFormat: '<b>{point.y}  studentů</b>'
+        pointFormat: '<b>{point.y} studentů</b>'
     },
 
     exporting: {
@@ -447,7 +451,7 @@ Highcharts.chart('top18dip', {
     },
 
     tooltip: {
-        pointFormat: '<b>{point.y}  studentů</b>'
+        pointFormat: '<b>{point.y} studentů</b>'
     },
 
     exporting: {
@@ -465,7 +469,7 @@ Highcharts.chart('top18dip', {
     series: [{
         name: '2018',
         data: top2018dip,
-        color: colors[1]
+        color: colors[5]
     }]
 });
 
