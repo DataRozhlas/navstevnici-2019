@@ -1,8 +1,8 @@
-title: "Data o zahraničních studentech v Česku: krátkodobým pobytům dominují Američané, dlouhodobým Slováci. Archív ukazuje, že přijíždějí od roku 1953"
+title: "Zahraniční studenti v Česku: krátkodobým pobytům dominují Američané, dlouhodobým Slováci. Archív ukazuje čísla od roku 1953"
 perex: "V roce 2018/19 na českých vysokých školách studovalo 60 846 zahraničních studentů. Loňská čísla překonala historické maximum – stejně jako se to děje už 25 let. Proč studentů přibývá, odkud jsou a co přijíždějí studovat?"
 published: "26. září 2019"
-coverimg:
-coverimg_note: ""
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/xxx_190925-131248_jab.png?itok=Wk5McS4N
+coverimg_note: "Graf: Odkud přijíždějí?"
 styles: []
 libraries: [jquery, highcharts, 'https://code.highcharts.com/modules/annotations.js', 'https://code.highcharts.com/modules/exporting.js']
 options: []
@@ -40,7 +40,7 @@ Obou typů studií každopádně rychle přibývá. Diplomových studentů mezi 
 
 Rozpočet Erasmu i další studijní programy detailně vysvětluje publikace DZS [Mezinárodní vzdělávání v obrazech a číslech](https://www.naerasmusplus.cz/file/4125/dzs_v-cislech.pdf).
 
-## XXX
+## Etiopani za socialismu, Řekové v devadesátkách
 
 Z dat o původu zahraničních studentů vystupují tři období: před sametovou revolucí, „období chaosu“ v 90. letech a doba po připojení k Erasmu, charakteristická zapojováním do evropských i celosvětových programů.
 
@@ -65,7 +65,7 @@ Po roce 1989 a rozpadu východního bloku se vysoké školy ocitly ve vakuu – 
 
 Push faktory jsou podle Tesaře také za zájmem Britů, kteří se jinak kvůli atypickému nastavení svého vzdělávacího systému zahraničních pobytů příliš neúčastní. Také oni, stejně jako studenti z řady dalších západních zemí, v 90. letech přijížděli studovat hlavně lékařské obory. Mezi hlavními příčinami podle něj mohly být vysoká cena medicínského vzdělání a nedostatek míst na britských školách, plnohodnotné uznávání lékařského vzdělání z Česka v Británii, případně poměr kvality a ceny českého lékařského vzdělání.
 
-## XXX
+## Slováci se Česku vyplatí
 
 Dnes přijíždí zdaleka nejvíc zahraničních studentů ze Slovenska. Mezi diplomovými studenty jich je téměř polovina, 21 z 45 tisíc. Slováci v českých programech přitom nejsou odjakživa, jak by se mohlo zdát. Ještě v roce 2000 jich bylo na českých školách pouze 3,7 tisíce. Během několika let se ale jejich řady několikanásobně rozrostly, v roce 2008 už jich bylo téměř 20 tisíc a od té doby se číslo prakticky nezměnilo.
 
@@ -73,7 +73,11 @@ Dnes přijíždí zdaleka nejvíc zahraničních studentů ze Slovenska. Mezi di
 
 Podle Michala Uhla z DZS přitom nejde o chybu ani změnu metodiky. „Čísla za slovenské studenty jsou v pořádku, nárůst je dán zlepšením kvality českých škol a navýšení studijních kapacit,“ tvrdí.
 
-„Přínos slovenských studentů je pro Českou republiku i samotné školy zásadní. Kvalita českých škol přitahuje slovenskou vzdělanostní elitu do české republiky, což je v době, kdy řada profesních oborů jako jsou lékaři či učitelé je díky demografické křivce v strukturálním propadu, jednoznačně dobrá zpráva. Navíc jsou slovenští studenti a studentky mimořádně motivovaní, protože už jen proto, aby mohli studovat museli vystoupit ze své konfortní zóny a přestěhovat se do jiné země. Vzhledem k tomu, že řada z nich v České republice zůstává, jedná se o jednoznačný pozitivní dopad pro českou ekonomiku. Ti co se vrací na Slovensko si odnášejí kulturní i osobní vazby na Českou republiku, což je faktor, který má pozitivní dopad do společenských i obchodních styků.“ (tohle nahradím Bekem)
+Vysoký podíl slovenských studentů [mají hlavně brněnské univerzity](https://www.irozhlas.cz/zpravy-domov/slovaci-v-cesku-jsou-mladsi-a-vzdelanejsi-nez-cesi_1707180850_jab); na Masarykově univerzitě v roce 2016 Slováci tvořili 17 procent všech studentů, na Fakultě informatiky jich bylo 49 procent, více než Čechů.
+
+Bývalý rektor Masarykovy univerzity si nicméně slovenské studenty pochvaluje.
+
+„Jsou to lepší studenti, z hlediska kvality studia jsou pro univerzitu přínosem,“ [řekl Bek serveru iROZHLAS.cz před rokem](https://www.irozhlas.cz/zpravy-domov/rektor-mu-socialisticka-vlada-brani-v-pristupu-ke-vzdelani-chce-si-zajistit-volice_201512080600_jbocek). „Platí, že migrují ti lepší studenti. Ať už ze Slovenska k nám, nebo od nás do Anglie. Slováci mají silnou motivaci jít studovat k nám, na Slovensku je s českými kamennými univerzitami srovnatelně kvalitní jenom Univerzita Komenského.“
 
 Že se vstřícnost vůči slovenským studentům Česku vyplatí také ekonomicky, ukazují [studie Ekonomicko-správní fakulty Masarykovy univerzity](https://archiv.ihned.cz/c1-64425310-slovensti-studenti-se-cesku-vyplati-statu-prinasi-650-milionu-rocne) nebo [projekt Kredo ministerstva školství](https://www.novinky.cz/veda-skoly/clanek/studenti-ze-zahranici-prinaseji-statu-miliardu-rocne-326881). Podle nich Slováci během svého studia přinesou české ekonomice na daních 650 milionů, respektive miliardu korun ročně. Ani jedna ze studií navíc neřeší přínos studentů, kteří v Česku zůstanou po získání diplomu.
 
@@ -93,7 +97,7 @@ Jeho škola přijme do mezinárodních programů každoročně zhruba 150 studen
 
 „Proto také DZS od roku 2004 provozuje národní iniciativu [Study in the Czech Republic](www.studyin.cz), která propaguje české vysoké školy v zahraničí a podporuje je v internacionalizačních aktivitách,“ dodává Lippmann.
 
-## XXX
+## Pro Američany je Česko 13. nejoblíbenější země
 
 U krátkodobých studijních pobytů je situace jiná – většina studentů přijíždí přes program Erasmus, proto jsou mezi nimi nejčastěji Francouzi, Španělé nebo Němci.
 
